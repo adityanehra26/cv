@@ -1,0 +1,150 @@
+body{
+  background-color: #E4F9F5;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+div{
+  padding-top: 50px; padding-bottom: 50px;
+}
+
+/*------------- text ---------------- */
+h1{
+  /* use rem instead of em because if parent container have a font size then it will add to that and your font become bigger.*/
+  font-size: 5.625em;    /* 1em = 16px , 90px/16 = 5.625em*/
+  margin-top: 0;
+  margin-bottom: 2%;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 1;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: #11999E;
+}
+
+p{
+  margin: 0;
+}
+
+/* ---------------- tables and lists --------------- */
+
+ol{
+  display: inline-block;
+}
+ul{
+  display: inline-block;
+}
+table{
+  display: inline-block;
+}
+
+
+/* ================================ class's ================================ */
+
+/*---------- img ----------- */
+.bottom_cloud {
+  position: absolute;
+}
+
+.top-cloud{
+  position: relative;
+  left: 200px;
+}
+
+.education-img{
+  width: 30%;
+  margin: 30px;
+  float: left;
+}
+
+.hobbies-img{
+  width: 30%;
+  float: left;
+  margin: 30px;
+}
+
+.computer-img{
+  width: 30%;
+  margin: 30px;
+  border-radius: 100%;
+  float: left;
+}
+
+.contact-imgs{
+  margin: auto 20px;
+  width: 4%;
+}
+
+.btn {
+  background: #e1ff00;
+  background-image: -webkit-linear-gradient(top, #e1ff00, #b8b62b);
+  background-image: -moz-linear-gradient(top, #e1ff00, #b8b62b);
+  background-image: -ms-linear-gradient(top, #e1ff00, #b8b62b);
+  background-image: -o-linear-gradient(top, #e1ff00, #b8b62b);
+  background-image: linear-gradient(to bottom, #e1ff00, #b8b62b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #0a090a;
+  font-size: 20px;
+  padding: 12px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/* --------------- container ------------- */
+.education-container{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-container{
+    padding-top: 50px;
+    background-color: #E4F9F5;
+    padding-bottom: 0;
+}
+
+.middle-container{
+  padding-top: 50px; padding-bottom: 50px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+/* --------------- text ---------------- */
+.education-text{
+  clear: left;
+}
